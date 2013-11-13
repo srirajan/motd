@@ -10,5 +10,6 @@
 template  "/etc/motd" do
     source "motd.erb"
     mode "0644"
+    manage_symlink_source true
 end
 
